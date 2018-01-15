@@ -1,0 +1,15 @@
+service: ${opt:no}-mock-notification
+
+provider:
+  name: aws
+  runtime: java8
+  timeout: 90
+  profile: sls-handson
+  region: us-east-1
+
+package:
+  artifact: target/mock-notification-dev.jar
+
+functions:
+  put:
+    handler: Handler

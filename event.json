@@ -1,0 +1,77 @@
+{
+  "userId": "user_a",
+  "s3Bucket": "wildrydes-step-module-resource-riderphotos3bucket-k77qol38m95j",
+  "s3Key": "1_happy_face.jpg",
+  "detectedFaceDetails": {
+    "BoundingBox": {
+      "Width": 0.46666666865348816,
+      "Height": 0.699999988079071,
+      "Left": 0.5024999976158142,
+      "Top": 0.10249999910593033
+    },
+    "AgeRange": {
+      "Low": 20,
+      "High": 38
+    },
+    "Smile": {
+      "Value": true,
+      "Confidence": 99.80350494384766
+    },
+    "Eyeglasses": {
+      "Value": false,
+      "Confidence": 99.99986267089844
+    },
+    "Sunglasses": {
+      "Value": false,
+      "Confidence": 99.98328399658203
+    },
+    "Gender": {
+      "Value": "Female",
+      "Confidence": 100
+    },
+    "Beard": {
+      "Value": false,
+      "Confidence": 98.4561996459961
+    },
+    "Mustache": {
+      "Value": false,
+      "Confidence": 93.6181640625
+    },
+    "EyesOpen": {
+      "Value": true,
+      "Confidence": 99.92940521240234
+    },
+    "MouthOpen": {
+      "Value": true,
+      "Confidence": 69.01742553710938
+    },
+    "Emotions": [
+      {
+        "Type": "HAPPY",
+        "Confidence": 99.9827651977539
+      },
+      {
+        "Type": "CONFUSED",
+        "Confidence": 1.437067985534668
+      },
+      {
+        "Type": "SAD",
+        "Confidence": 0.25589466094970703
+      }
+    ],
+    "Pose": {
+      "Roll": -2.011831760406494,
+      "Yaw": 32.20722579956055,
+      "Pitch": -3.8901124000549316
+    },
+    "Quality": {
+      "Brightness": 60.96303939819336,
+      "Sharpness": 99.99671173095703
+    },
+    "Confidence": 99.7334976196289
+  },
+  "errorInfo": {
+    "Error": "FaceAlreadyExistsError",
+    "Cause": "{\"errorMessage\":\"Face in the picture is already in the system. \",\"errorType\":\"FaceAlreadyExistsError\",\"stackTrace\":[\"Object.<anonymous> (/var/task/index.js:38:36)\",\"Module._compile (module.js:409:26)\",\"Object.Module._extensions..js (module.js:416:10)\",\"Module.load (module.js:343:32)\",\"Function.Module._load (module.js:300:12)\",\"Module.require (module.js:353:17)\",\"require (internal/module.js:12:17)\"]}"
+  }
+}
